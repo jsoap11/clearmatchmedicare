@@ -1,0 +1,17 @@
+User-Agent: Yandex
+Disallow: /
+
+User-Agent: *
+Allow: /
+
+User-Agent: * 
+Crawl-delay: 30
+
+Disallow:    /find-a-plan
+Disallow:    /privacy-policy
+Disallow:    /licensing-legal
+Disallow:    /backoffice
+
+
+
+https://clearmatchmedicare.com/sitemap.xml

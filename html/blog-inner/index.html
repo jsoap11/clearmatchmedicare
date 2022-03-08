@@ -1,0 +1,597 @@
+<?php $page= "home";?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name=”description”>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>xyz</title>
+<!-- normalize -->
+<link rel="stylesheet" href="assets/css/normalize.min.css">
+<!-- fav-icon -->    
+<link rel="shortcut icon" href="assets/image/brand1.png"> 
+<!-- Bootstrap 4.4.1-->
+<link rel="stylesheet" href="assets/bootstrap-4.5.2/css/bootstrap.min.css">
+<!-- Font-Awesome -->
+<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- Swiper Slider -->
+<link rel="stylesheet" href="assets/swiper-master/package/css/swiper.css">
+<!-- google-fonts   
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&family=Teko:wght@500&display=swap" rel="stylesheet">
+<!-- style.css -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <main>
+
+        <!-- header -->
+        <header>
+            <!--header-->
+            <div class="container-fluid">
+                <div class="row py-3">
+                    <div class="col-4 text-left d-flex">
+                        <span class="d-sm-none d-block">
+                            <button class="navbar-toggler navbar-light border mr-3 mt-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </span>
+                        <a class="navbar-brand" href="index.php"><img class="navbar-logo" src="assets/image/png/CMM-logo.png"></a>
+                    </div>
+                    <div class="col-4 text-gold text-center">
+                        <p class="mb-0 d-md-block d-none" style="line-height: 26px;">
+                            <span>Speak to a Licensed Sales Agent</span> <br> <b>Call Now 1-855-537-2378 TTY: 711</b><br>
+                            <span class="text-blue small">
+                                Monday-Friday 8:00am - 8:00pm
+                            </span>
+                        </p>
+
+                        <span class="d-sm-block d-none">
+                            <a class="nav-link text-blue text-decoration-none d-md-none d-block" href="#">
+                                <i class="fa fa-user-circle text-blue fa-lg mr-2"></i>
+                                <small>Customer ID</small>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="col-4 text-right align-self-center d-flex justify-content-end">
+                        <span class="d-sm-block d-none">
+                            <a class="btn btn bg-gold px-4 text-white p20" href="#">
+                                GET STARTED
+                            </a>
+                        </span>
+
+                        <span>
+                            <a class="btn btn-light nav-link rounded-circle ml-2 d-md-none d-block" style="padding-top: 7px !important; padding-bottom: 7px !important; padding-left: 10px !important; padding-right: 10px !important;" href="#">
+                                <i class="fa fa-phone text-gold fa-lg rotatex"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!--<nav class="navbar navbar-expand-md bg-blue p-md-0 nav1">
+                <div class="container">
+                    <a class="navbar-brand pt-3 d-md-none d-block" href="index.php"><img class="w-100" src="assets/image/png/CMM-logo-white.png"></a>
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.php">About Us</a>
+                            </li>
+                            <li class="nav-item pl-md-3">
+                                <a class="nav-link" href="contact.php">Medicare Advantage</a>
+                            </li>    
+                            <li class="nav-item pl-md-3">
+                                <a class="nav-link" href="contact.php">Medicare Supplement</a>
+                            </li>    
+                            <li class="nav-item pl-md-3">
+                                <a class="nav-link" href="contact.php">Prescription Drug Coverage</a>
+                            </li>    
+                            <li class="nav-item pl-md-3">
+                                <a class="nav-link" href="contact.php">Blog</a>
+                            </li> 
+                        </ul>
+                    </div>  
+
+                    <div class="d-md-block d-none">
+                        <div class="d-flex justify-content-end align-self-end">
+                            <a href="#" class="text-decoration-none text-white p14">
+                                <i class="fa fa-user-circle text-white fa-lg mr-2"></i>
+                                <small>Customer ID</small>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>-->
+
+
+            <div class="collapse bg-blue navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-2 mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="contact.php">Medicare Advantage</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.php">Medicare Supplement</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.php">Prescription Drug Coverage</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.php" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Blog <i class="fa fa-caret-down" aria-hidden="true"></i> </a>
+                        <div class="collapse bg-light mr-2 p-1 side-menu" id="collapseExample">
+                            <a class="nav-link text-blue" href="contact.php">Medicare</a>
+                            <a class="nav-link text-blue" href="contact.php">Lifestyle</a>
+                            <a class="nav-link text-blue" href="contact.php">Retirement</a>
+                            <a class="nav-link text-blue active" href="contact.php">Health</a>
+                        </div>
+
+                    </li> 
+                    <li class="nav-item mr-auto">
+                        <a class="nav-link text-white text-decoration-none" href="#">
+                            <i class="fa fa-user-circle text-white fa-lg mr-2"></i>
+                            <small>Customer ID</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="bg-blue p-md-0 nav1">
+                <div class="container cnttr">
+                    <div class="d-flex justify-content-md-start justify-content-center">
+                        <ul class="navbar-nav flex-row">
+                            <li class="nav-item d-md-block d-none dd-none">
+                                <span class=""><a class="nav-link" href="about.php">About Us</a></span>
+                            </li>
+                            <li class="nav-item pl-md-3 d-sm-block d-none">
+                                <a class="nav-link" href="contact.php">Medicare Advantage</a>
+                            </li>    
+                            <li class="nav-item pl-md-3 d-sm-block d-none">
+                                <a class="nav-link" href="contact.php">Medicare Supplement</a>
+                            </li>    
+                            <li class="nav-item pl-md-3 d-sm-block d-none">
+                                <a class="nav-link" href="contact.php">Prescription Drug Coverage</a>
+                            </li>    
+                            <li class="nav-item pl-md-3">
+                                <a class="nav-link" href="contact.php">Blog</a>
+                            </li> 
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link text-white text-decoration-none d-md-block d-none dd-none" href="#">
+                                    <i class="fa fa-user-circle text-white fa-lg mr-2"></i>
+                                    <small>Customer ID</small>
+                                </a>
+                            </li> 
+                        </ul>
+                    </div> 
+                </div>                
+            </nav>
+            <div class=" cnttr bg-light nav1">
+                <div class="d-flex justify-content-md-center justify-content-center">
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item sub-menu">
+                            <a class="nav-link text-blue pl-2 pr-2" href="contact.php">Medicare</a>
+                        </li>    
+                        <li class="nav-item sub-menu pl-md-5">
+                            <a class="nav-link text-blue pl-2 pr-2" href="contact.php">Lifestyle</a>
+                        </li>    
+                        <li class="nav-item sub-menu pl-md-5 d-sm-block d-none">
+                            <a class="nav-link text-blue pl-2 pr-2" href="contact.php">Retirement</a>
+                        </li>    
+                        <li class="nav-item sub-menu pl-md-5">
+                            <a class="nav-link text-blue active pl-2 pr-2"  href="contact.php">Health</a>
+                        </li> 
+                    </ul>
+                </div> 
+            </div>
+
+        </header>
+        
+        <div class="container mt-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="background-color: white;padding-left: 0px;">
+                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-dark">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-dark">Blog</a></li>
+                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-dark">Health</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">5 Awesome Bodyweight Moves to Build Strength</li>
+                </ol>
+            </nav>
+            <div class="row">
+                <div class="col-lg-9">
+                    <img src="https://images.pexels.com/photos/5383504/pexels-photo-5383504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" alt="Responsive image">
+                    <br />
+                    <br />
+                    <span class="text-dim" style="font-size: small;">April 20,2021</span>
+                    <br />
+                    <br />
+                    <h3 class="text-blue">5 Awesome Bodyweight Moves to Build Strength</h3>
+                    <p class="p19">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis nulla nec ex mattis, ac finibus turpis viverra. Ut gravida lorem sed leo aliquam condimentum. Cras a congue eros. Nam non dolor at mauris lobortis pretium non non nulla. Etiam nec nisl sed nisi dignissim rutrum. Ut in vestibulum massa. Donec ac gravida quam. Aenean blandit nunc orci, in viverra tellus gravida et. Etiam ut interdum nisi, ut posuere elit. Nam a elit sed enim tempor ullamcorper ac a nibh. Vestibulum sed accumsan neque. Phasellus bibendum elit ac risus dignissim malesuada ac quis tellus.
+                    </p>
+                    <br />
+                    <h5 class="text-dark p16">Heading Here</h5>
+                    <p class="p19 mb-4">
+                        Fusce urna nunc, pretium quis mi vitae, ultricies pretium velit. Aenean odio lacus, feugiat dignissim euismod eget, vestibulum aliquet nunc. Fusce id lacus id libero ullamcorper vulputate. Morbi nibh enim, scelerisque bibendum mauris ac, semper egestas est. Quisque euismod facilisis nibh sit amet euismod. Mauris dignissim tincidunt sapien vitae sodales. Curabitur nec dapibus tellus, non vestibulum neque. Duis ligula dolor, consectetur quis pretium sit amet, faucibus ac mauris. Nam velit neque, facilisis eget finibus ut, placerat vel odio. Praesent pellentesque auctor pretium. Aliquam id commodo eros, eu volutpat tortor. Mauris nec sem porta felis venenatis aliquam. Integer a dapibus elit, pulvinar porttitor lorem.
+                    </p>
+                    <img src="https://images.pexels.com/photos/5383504/pexels-photo-5383504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" alt="Responsive image">
+                    <br />
+                    <br />
+                    <h5 class="text-dark p16">Heading Here</h5>
+                    <p class="p19">
+                        Sit amet nisl purus in mollis. Sit amet risus nullam eget felis eget nunc lobortis mattis. Viverra nibh cras pulvinar mattis nunc sed blandit. Amet commodo nulla facilisi nullam vehicula ipsum. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Volutpat odio facilisis mauris sit amet massa. A lacus vestibulum sed arcu. Vitae sapien pellentesque habitant morbi.                        
+                    </p>
+                    <p class="p19">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                        
+                    </p>
+                    <span>Share this...</span>
+                    <div>
+                        <a href="#" class="text-decoration-none p2">
+                            <i class="fa fa-facebook-official" aria-hidden="true" style="font-size: larger;"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none ml-1 p2">
+                            <i class="fa fa-twitter-square" aria-hidden="true" style="font-size: larger;"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none ml-1 p2">
+                            <i class="fa fa-instagram" aria-hidden=1"true" style="background-color: black;color: white;padding: 2px;font-size: larger;"></i>
+                        </a>    
+                        <a href="#" class="text-decoration-none ml-1 p2">
+                            <i class="fa fa-envelope bg-blue" style="color: white;padding:2px;" aria-hidden="true"></i>
+                        </a>    
+                    </div>
+                    <div class=" mt-4 mb-4">
+                        <span class="text-dark p10 mr-3">0 Comments</span>
+                        <button class="btn bg-gold text-white btn-lg">JOIN THE CONVERSATION</button>
+                    </div>
+                    <div class="p10 text-dim mb-5">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i> Originally posted on Apr 20,2021 05:04:13
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card bg-blue p-1 mb-5">
+                        <div class="card-body text-center">
+                            <center>
+                                <span class="text-white p13">Find a Plan Today!</span>
+                                <input type="text" class="form-control p10 mt-1 mb-1" size="6" placeholder="Enter ZIP Code">    
+                                <span class="small p10 text-danger">Please enter a valid ZIP code</span>
+                                <button class="btn btn-block bg-gold text-white mt-2 mb-2">FIND A PLAN</button>
+                                <span class="text-white p21">Call a Licensed Sales Agent</span>
+                                <h4 class="text-white p13">1-800-637-7602 TTY User: 711</h4>
+                                <span class="text-white p19"> Mon-Fri 8:00a - 8:00pm</span>
+                            </center>
+                        </div>
+                    </div>
+
+                    <h4 class="text-dark p4">Select a Topic:</h4>                                                        
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <h5 class="text-dim p21">Medicare Enrollment</h5>                                                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5 class="text-dim p21">Medicare Advantage</h5>                                                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5 class="text-dim p21">Medicare Port D Plan</h5>                                                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5 class="text-dim p21">Medicare and Medication</h5>                                                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5 class="text-dim p21">Medicare Coverage</h5>                                                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5 class="text-dim p21">Medicare Education</h5>                                                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5 class="text-dim p21">Medicare Lifestyle</h5>                                                        
+                            </td>
+                        </tr>
+                    </table>
+                    <h4 class="text-dark p4">Related Articles</h4>                                                        
+                    <div class="card mb-3">
+                        <img src="https://images.pexels.com/photos/4148988/pexels-photo-4148988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="small text-dim ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</h5>
+                          <a href="#" class="text-underline">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="https://images.pexels.com/photos/4148988/pexels-photo-4148988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="small text-dim ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</h5>
+                          <a href="#" class="text-underline">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card mb-5">
+                        <img src="https://images.pexels.com/photos/4148988/pexels-photo-4148988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="small text-dim ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</h5>
+                          <a href="#" class="text-underline">Read more</a>
+                        </div>
+                    </div>
+
+                    <h4 class="text-dark p4">Tags</h4>                                                        
+                    <div class="p3">
+                        <span class="chip">MEDICARE</span>
+                        <span class="chip">MEDICARE PART D</span>
+                        <span class="chip">HEALTH CARE</span>
+                        <span class="chip">QUOTE</span>
+                        <span class="chip">ANNUAL ENROLLMENT</span>
+                        <span class="chip">COMPARE</span>
+                        <span class="chip">THE DONUT HOLE</span>
+                        <span class="chip">MEDICARE LIFESTYLE</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mt-3">
+                <div class="col-lg-3">
+                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-lg-5">
+                    <h5 class="p4">BRENDA MERCER</h5>
+                    <p class="p19 mt-3">
+                        After retiring from a career as an executive travel counselor in 2006, Brenda Mercer embarked on a second career as a licensed insurance agent. During that first year, many clients told Brenda how…
+                        <a href="#" class="text-blue text-underline">Read more</a>
+                    </p>
+                </div>
+                <div class="col-lg-4 border-left">
+                    <h5 class="p4">Articles by Brenda Mercer</h5>
+                    <h6 class="text-blue p10 mt-3">LIFESTYLE</h6>
+                    <h6 class="p10 text-dark"><b>Article title</b></h6>
+                    <p class="p19 mt-2">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                    <h6 class="text-blue p10 mt-4">HEALTH</h6>
+                    <h6 class="p10 text-dark"><b>Article title</b></h6>
+                    <p class="p19 mt-2">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-light justify-content-center p-5 mt-5">
+            <h4 class="text-center p7">Recommended for you</h4>
+            <div class="row justify-content-md-center">
+                <div class="col-md-3 m-1">
+                    <div class="card";">
+                        <img class="card-img-top" src="https://images.pexels.com/photos/3772612/pexels-photo-3772612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                        <div class="card-body">
+                            <span class="small" >HEALTH</span>
+                            <span class=" small float-right">April 14, 2021</span>
+                            <h5 class="text-blue p4 mt-3">4 Exercises that are better than crunches</h5>
+                            <p class="p19">These simple yet effective moves will keep your abs, back, and whole midsection strong.</p>
+                            <a class="mt-3 text-blue text-underline">Read more</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 m-1">
+                    <div class="card">
+                        <img class="card-img-top" src="https://images.pexels.com/photos/3772612/pexels-photo-3772612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                        <div class="card-body">
+                            <span class="small">HEALTH</span>
+                            <span class="small float-right">April 14, 2021</span>
+                            <h5 class="text-blue p4 mt-3">The Best and Worst Exercises for Lower Back Pain</h5>
+                            <p class="p19">Prevent and relieve back pain with this helpful guide to exercise for the back.</p>
+                            <a class="mt-3 text-blue text-underline">Read more</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 m-1">
+                    <div class="card">
+                        <img class="card-img-top" src="https://images.pexels.com/photos/3772612/pexels-photo-3772612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                        <div class="card-body">
+                            <span class="small">HEALTH</span>
+                            <span class="small float-right">April 14, 2021</span>
+                            <h5 class="text-blue p4 mt-3">4 Surprising Signs You’re Eating Too Much Sugar</h5>
+                            <p class="p19">You may be unknowingly setting the stage for health problems. How to know when enough sugar is enough.</p>
+                            <a class="mt-3 text-blue text-underline">Read more</a>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer>
+<!--footer-->
+<footer class="bg-blue1 foot mt-3">
+    <div class="container cnttr">
+        <div class="row pb-4 left-reveal text-white">
+            <div class="col-12 col-md-12 col-lg-3 mt-4 pt-3 text-muted">
+                <a class="navbar-brand" href="index.php"><img class="w-100" src="assets/image/png/CMM-logo-white.png"></a>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 pt-3 mt-4">
+                <span class="text-decoration-none text-white p20">
+                    <b>Need more information?</b> <span class="text-grey">Speak to a Licensed Sales Agent</span> <br> <b>1-855-537-2378/TTY 711</b> <span class="text-grey">Mon-Fri 8:00am - 8:00pm</span>
+                </span>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 mt-4 pt-3">
+                <a class="btn btn bg-gold px-5 text-white p20" href="#">
+                    FIND A PLAN
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container cnttr pb-5">
+        <div class="row py-4 left-reveal text-white">
+            <div class="col-12 col-md-12 col-lg-3 mt-4">
+                <h5 class="h6 p20">PRODUCTS</h5>
+                <div class="mt-4">
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Medicare Part D Plans</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Medicaid Supplement Plans</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Medicare Advantage Plans</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Medicare Plan Finder</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Medicare Glossary</a></p>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 mt-4">
+                <h5 class="h6 p20">HELPFUL CONTENT</h5>
+                <div class="mt-4">    
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> What is Medicare</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Apply for Medicare</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Medicare Enrollment</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Medicare Carriers</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Medicare by State</a></p>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 mt-4">
+                <h5 class="h6 p20">COMPANY</h5>
+                <div class="mt-4">     
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> About Us</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Careers</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Contact Us</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Privacy Policy</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Licensing Legal</a></p>
+                    <p class="mb-2">
+                    <a href="#" class="text-decoration-none p21"> Do Not Call Policy</a></p>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 mt-4">
+                <h5 class="h6 p20">MEDICARE BY STATE</h5>
+                <p class="mt-4 text-grey p21">AL, AR, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, LA, MA, MD ME, MI, MN, MO, MS, MT, NC, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, TN, TX, UT VA, WA, WI, WV, WY</p>
+            </div>
+        </div>
+    </div>
+    <hr class="bg-secondary my-0">
+    <div class="container cnttr">
+        <div class="row left-reveal text-white">
+            <div class="col-12 col-md-12 col-lg-5 mt-3 text-muted text-center text-lg-left">
+                <p class="text-grey small p21">© 2021 HealthPlanOne, LLC, All Rights Reserved. <span class="ml-4">Site Map</span></p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 mt-3">
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="text-decoration-none">
+                        <img class="" src="assets/image/png/facebook-square.png">
+                    </a>
+                    <a href="#" class="text-decoration-none ml-3">
+                        <img class="" src="assets/image/png/twitter-square.png">
+                    </a>
+                    <a href="#" class="text-decoration-none ml-3">
+                        <img class="" src="assets/image/png/instagram-square.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 mt-3 text-lg-right text-center">
+                <a href="index.php"><img class="" src="assets/image/png/BBB-Accredited-Business.png"></a>
+                <a href="index.php"><img class="" src="assets/image/png/McAfee-Secure.png"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="bg-light">
+    <div class="container p-4">
+        <p class="p19">The ClearMatch Medicare website is operated by HealthPlanOne, LLC a licensed health insurance agency based in Connecticut; in California d/b/a HPOne Insurance Agency, license #OF30784. HealthPlanOne, is a licensed and certified representative of Medicare Advantage HMO, PPO and PPFS organizations and stand-alone prescription drug plans with a Medicare contract. Enrollment in any plan depends on contract renewal. 
+        </p>
+        <p class="p19">For a complete list of available plans please contact 1-800-MEDICARE (TTY users should call 1-877-486-2048), 24 hours a day/7 days a week or consult www.medicare.gov. 
+        </p>
+        <p class="p19">            
+            The purpose of this communication is the solicitation of insurance. Contact will be made by an insurance agent/producer or insurance company. 
+        </p>
+        <p class="p19">            
+            Medicare supplement plans are not connected with or endorsed by the U.S. Government or the federal Medicare program. 
+        </p>
+        <p class="p19">            
+            The Centers for Medicare and Medicaid Services (CMS) does not review or approve Medicare Supplement plan information.</p>
+    </div>    
+</footer>
+
+<!--scroll-top-->
+<div>
+    <a class="scroll-top rounded-circle bg-gold text-white" href="#"><small><i class="fa fa-chevron-up fa-lg"></i></small></a>
+</div>  
+   
+
+        </footer>
+    </main>
+
+<!-- bootstrap 4.4.1 -->
+<script src="assets/bootstrap-4.5.2/js/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="assets/bootstrap-4.5.2/js/bootstrap.min.js"></script>
+<!-- page-scrollreveal-3.3.2 -->
+<script src="assets/page-scrollreveal-3.3.2/scrollreveal.min.js"></script>
+<!-- Swiper Slider -->
+<script src="assets/swiper-master/package/js/swiper.min.js"></script>
+
+<!-- javascript.js --> 
+<script src="assets/js/common.js"></script>          
+<script src="assets/js/index.js"></script>
+
+<script>
+    
+    // swiper-master    
+    var swiper3 = new Swiper( '.swiper3', {
+    spaceBetween: 20,
+    loop: true,
+    slidesPerView: 1,
+
+    autoplay: {
+        delay: 5000,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        /*dynamicBullets: true,*/
+    }, 
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        clickable: true,
+    },
+    
+    // Responsive breakpoints
+    breakpoints: {
+        // when window width is <= 480px
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        // when window width is <= 640px
+        767: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        // when window width is <= 640px
+        992: {
+            
+        spaceBetween: 20
+        }
+    },  
+} );
+</script>
+
+
+</body>
+</html>

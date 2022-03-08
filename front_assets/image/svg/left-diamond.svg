@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="217" height="194" viewBox="0 0 217 194">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1996" data-name="Rectangle 1996" width="217" height="194" transform="translate(0 140)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_1990" data-name="Rectangle 1990" width="217" height="253" transform="translate(16152 9033)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Diamond_Shapes" data-name="Diamond Shapes" transform="translate(0 -140)" clip-path="url(#clip-path)">
+    <g id="Mask_Group_56" data-name="Mask Group 56" transform="translate(-16152 -8952)" clip-path="url(#clip-path-2)">
+      <g id="Group_1198" data-name="Group 1198" transform="translate(16027.952 9032.733)">
+        <path id="Path_3652" data-name="Path 3652" d="M242.779,322.617l44.026-44.026,44.026,44.026a16.548,16.548,0,0,1,0,23.4l-44.026,44.026-44.026-44.026A16.546,16.546,0,0,1,242.779,322.617Z" transform="translate(-20.674 -278.591)" fill="#fbb230"/>
+        <path id="Path_3653" data-name="Path 3653" d="M310.692,147.34l95.545-95.545a26.425,26.425,0,0,1,37.37,0l25.239,25.238,70.307,70.307a26.425,26.425,0,0,1,0,37.37l-70.307,70.307-25.239,25.238a26.423,26.423,0,0,1-37.37,0l-95.545-95.545A26.425,26.425,0,0,1,310.692,147.34Z" transform="translate(-302.952 -34.983)" fill="#98c4f9"/>
+        <path id="Path_3654" data-name="Path 3654" d="M843.678,265.225l26.538-26.539,26.538,26.539a9.974,9.974,0,0,1,0,14.106l-26.538,26.539-26.538-26.539A9.974,9.974,0,0,1,843.678,265.225Z" transform="translate(-558.808 -146.857)" fill="#212975"/>
+      </g>
+    </g>
+  </g>
+</svg>

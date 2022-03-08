@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*font-family: sofia-pro, sans-serif;*/
+@import url("https://use.typekit.net/yql2hfv.css");
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	color: #000;
+	font-family: sofia-pro, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	background: #d8e1e3;
+}
+
+a:link {
+	color: #003972;
+	text-decoration: none;
+}
+
+header {
+	background: #fff;
+}
+
+.logo {
+	padding: 12px 15px;
+}
+
+	.logo img {
+		width: auto;
+	}
+
+.needHelp {
+	padding: 10px 15px;
+	color: #212975;
+	font-family: sofia-pro, sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.2em;
+	text-align: right;
+}
+
+	.needHelp .phone {
+		display: block;
+		padding-bottom: 3px;
+		font-size: 1.25em;
+		font-weight: bold;
+	}
+
+	.needHelp .hours {
+		display: block;
+		font-size: .875em;
+		font-weight: normal;
+		line-height: normal;
+	}
+
+		.needHelp .hours span {
+			display: block;
+		}
+
+	.needHelp a {
+		color: #212975;
+	}
+
+.phone:after {
+	content: " / TTY User 711";
+}
+
+.content {
+	background: #fff;
+}
+
+h1, h2 {
+	color: #212975;
+	font-family: sofia-pro, sans-serif;
+	font-size: 2.25em;
+	font-weight: 500;
+}
+
+h2 {
+	color: #4497cb;
+	font-size: 1.75em;
+	line-height: 1.5em;
+}
+
+p {
+	color: #333;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.container {
+	max-width: 768px;
+}
+
+.jumbotron {
+	margin: 0 auto;
+	padding-top: 95px;
+	padding-bottom: 95px;
+	background: linear-gradient(rgba(0, 57, 111, 0.5), rgba(0, 57, 111, 0.5)), url(../images/hero-info-guide.jpg) no-repeat center center;
+	background-size: cover;
+	background-color: #fff;
+}
+
+	.jumbotron h1 {
+		color: #fff;
+		font-size: 58px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.jumbotron p {
+		color: #fff;
+		font-size: 21px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	.jumbotron a {
+		color: #fff;
+	}
+
+#content {
+	padding: 20px 40px 50px 40px;
+	background: #fff;
+}
+
+	#content h1 {
+		font-size: 2.25em;
+		font-weight: 600;
+	}
+
+	#content p, #content ul {
+		color: #333;
+		font-size: 1em;
+	}
+
+	#content a:link {
+		color: #fff;
+	}
+/* Button Styles
+======================================================================================== */
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-outline {
+	border-radius: 6px;
+}
+
+.btn-default {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	background: #212975;
+	border: 2px solid #212975;
+}
+
+	.btn-default:hover,
+	.btn-default:focus {
+		color: #fff !important;
+		background-color: #3E4485 !important;
+		border-color: #212975 !important;
+		background-position: 0 -15px;
+	}
+
+	.btn-default:active,
+	.btn-default.active {
+		background-color: #3E4485;
+		border-color: #212975;
+	}
+
+.btn-primary {
+	text-transform: uppercase;
+	background: #FF7F32;
+	border: 2px solid #FF7F32;
+}
+
+	.btn-primary:hover,
+	.btn-primary:focus {
+		background-color: #FD904F !important;
+		border: 2px solid #FF7F32 !important;
+		background-position: 0 -15px;
+	}
+
+	.btn-primary:active,
+	.btn-primary.active {
+		background-color: #FD904F;
+		border: 2px solid #FF7F32;
+		border-color: #FF7F32;
+	}
+/* Footer
+===================================================================== */
+footer {
+	padding: 15px 0 5px 0;
+	color: #fff;
+	font-size: .875em;
+	font-weight: 300;
+	background: #00366f;
+}
+
+	footer p {
+		color: #fff;
+		line-height: 1.5em;
+	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.jumbotron {
+		background: linear-gradient(rgba(0, 57, 111, 0.5), rgba(0, 57, 111, 0.75)), url(../images/hero-info-guide.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.logo {
+		padding-bottom: 0;
+		text-align: center;
+	}
+
+	.needHelp {
+		text-align: center;
+	}
+
+	.jumbotron {
+		background: linear-gradient(rgba(0, 57, 111, 0.5), rgba(0, 57, 111, 0.75)), url(../images/hero-info-guide.jpg) no-repeat center center;
+		background-size: cover;
+	}
+  
+  .jumbotron h1 {
+		font-size: 52px;
+  }
+
+	#content {
+		padding: 20px;
+		background: #fff;
+	}
+}
+
+@media (max-width: 629px) {
+	.jumbotron h1 span, .jumbotron p span {
+		display: block;
+	}
+}
+
+@media (max-width: 414px) {
+	.jumbotron {
+		background: linear-gradient(rgba(0, 57, 111, 0.5), rgba(0, 57, 111, 0.75)), url(../images/hero-info-guide.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+	#content h1 {
+		font-size: 1.875em;
+		font-weight: 600;
+	}
+}
+
+@media (max-width: 375px) {
+	.jumbotron {
+		background: linear-gradient(rgba(0, 57, 111, 0.5), rgba(0, 57, 111, 0.75)), url(../images/hero-info-guide.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+	#content h1 {
+		font-size: 1.875em;
+		font-weight: 600;
+	}
+}
+
+@media (max-width: 320px) {
+	.jumbotron {
+		background: linear-gradient(rgba(0, 57, 111, 0.5), rgba(0, 57, 111, 0.75)), url(../images/hero-info-guide.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+		.jumbotron h1 {
+			font-size: 42px;
+		}
+
+	#content h1 {
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+}
